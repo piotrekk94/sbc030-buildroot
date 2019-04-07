@@ -1,0 +1,8 @@
+config BR2_PACKAGE_NINVADERS
+	bool "ninvaders"
+	depends on BR2_PACKAGE_NCURSES
+	help
+	  Jhead is a program for manipulating settings and thumbnails
+	  in Exif jpeg headers used by most Digital Cameras.
+
+	  http://www.sentex.net/~mwandel/jhead/
