@@ -1773,6 +1773,7 @@ menu "Mail"
 endmenu
 
 menu "Miscellaneous"
+	source "package/c64kbd/Config.in"
 	source "package/ninvaders/Config.in"
 	source "package/aespipe/Config.in"
 	source "package/bc/Config.in"

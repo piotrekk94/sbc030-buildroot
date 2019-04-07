@@ -1,0 +1,4 @@
+config BR2_PACKAGE_C64KBD
+	bool "c64kbd"
+	help
+	  C64 UART keyboard event handler

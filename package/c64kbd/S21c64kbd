@@ -1,0 +1,16 @@
+#!/bin/sh
+
+DAEMON=/sbin/c64kbd
+
+case "$1" in
+	start)
+		echo "Starting c64kbd..."
+		eval $DAEMON&
+		;;
+	stop)
+		echo "Stopping c64kbd..."
+		;;
+	*)
+		echo "Usage: $0 {start}"
+		exit 1
+esac
