@@ -258,6 +258,7 @@ menu "Games"
 	source "package/stella/Config.in"
 	source "package/supertux/Config.in"
 	source "package/supertuxkart/Config.in"
+	source "package/ninvaders/Config.in"
 endmenu
 
 menu "Graphic libraries and applications (graphic/text)"
@@ -1774,7 +1775,6 @@ endmenu
 
 menu "Miscellaneous"
 	source "package/c64kbd/Config.in"
-	source "package/ninvaders/Config.in"
 	source "package/aespipe/Config.in"
 	source "package/bc/Config.in"
 	source "package/clamav/Config.in"
